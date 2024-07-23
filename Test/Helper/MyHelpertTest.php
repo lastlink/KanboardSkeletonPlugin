@@ -4,7 +4,7 @@
 require_once 'tests/units/Base.php';
 
 use Kanboard\Core\Plugin\Loader;
-use Kanboard\Plugin\PluginNameExampleStudlyCaps\Helper\MyHelpert;
+use Kanboard\Plugin\PluginNameExampleStudlyCaps\Helper\MyHelper;
 
 class MyHelpertTest extends Base
 {
@@ -22,7 +22,7 @@ class MyHelpertTest extends Base
     }
 
     public function testBytes(){
-        $helper = new MyHelpert($this->container);
+        $helper = new MyHelper($this->container);
 
         $result = $helper->testFunction();
 
